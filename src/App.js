@@ -8,14 +8,34 @@ function App() {
       <header className="App-header">
         <h1>The Weather App</h1>
         <Weather />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>
+          <a
+            className="App-link"
+            href="https://github.com/karellemarina/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Open sourced
+          </a>
+          , by{" "}
+          <a
+            className="App-link"
+            href="https://www.shecodes.io/graduates/118933-karelle-bolon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Karelle Bolon
+          </a>{" "}
+          from{" "}
+          <a
+            className="App-link"
+            href="https://www.shecodes.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SheCodes
+          </a>
+        </p>
       </header>
     </div>
   );
